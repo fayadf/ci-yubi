@@ -24,7 +24,7 @@ CERTIFICATE_NAME="INT-Ghaf-Devenv-Common"
 # Azure Function (verify-signature) URL
 # Please change it based to correspond to your deployment
 #URL = "http://localhost:7071/api/VerifySignature"
-URL = "https://ghaf-devenv-signverify.azurewebsites.net/api/verifysignature"
+URL = "https://ghaf-ci-devuaen-signverify.azurewebsites.net/api/verifysignature"
 
 def main():
     """Send REST API request to VerifySignature Azure Function"""
